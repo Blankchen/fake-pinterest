@@ -1,0 +1,115 @@
+.grid-item {
+  top: 50px;
+  left: 0px;
+  transform: translateX(260px) translateY(0px);
+  width: 260px;
+  position: absolute;
+}
+
+/* class="pinWrapper none" */
+.pinWrapper {
+  cursor: zoom-in;
+  margin: -8px;
+  padding: 8px;
+  position: relative;
+  border-radius: 6px;
+}
+
+.pinWrapper:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.hover-show:hover .btn-upload, .hover-show:hover .btn-save, .hover-show:hover .span-user {
+  display: block;
+}
+
+/* class="pinImageActionButtonWrapper" */
+.pinImageActionButtonWrapper {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+/* class="pinMetaWrapper" */
+.pinMetaWrapper {
+  position: relative;
+  padding: 0 4px;
+}
+
+.meta-span {
+  margin-right: 24px;
+  text-align: left;
+}
+
+.btn-upload {
+  display: none;
+  float: left;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 100;
+}
+
+.btn-upload button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-save {
+  display: none;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 100;
+}
+
+.btn-save button {
+  padding: 10px;  
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.span-user {
+  display: none;
+  float: left;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 100;
+}
+
+.span-user span {
+  color: white;
+}
+
+.btn-more {
+  position: absolute;
+  right: 0px;
+  top: -3px;
+  z-index: 9999;
+}
+
+.btn-more:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.btn-more button {
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+}
+
+img {
+  max-width: 100%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  border-radius: 10px;
+}
